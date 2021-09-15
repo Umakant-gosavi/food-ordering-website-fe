@@ -176,7 +176,7 @@ class Header extends Component {
         const obj = {
             firstName: res.name,
             lastName: res.name,
-            email: res.email,
+            email: res.name,
             password: res.id
         }
         console.log(obj.firstName);
