@@ -1,0 +1,113 @@
+.header {
+    height: 80px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.logoSection {
+    
+}
+
+.logo-small {
+    width: 40px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    color: #eb2929;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.loginSection {
+    text-align: right;
+}
+
+.login-button {
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    line-height: 38px;
+    padding: 0 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.signup-button {
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    line-height: 38px;
+    padding: 0 10px;
+    color: white;
+}
+
+.popup-heading {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.my-facebook-button-class {
+    width: 398px;
+    height: 50px;
+    padding: 5px !important;
+    border-radius: 6px !important;
+    border: solid 1px #c7c7c7 !important;
+    background-color: #ffffff !important;
+    opacity: 0.8 !important;
+    font-family: Poppins !important;
+    font-size: 18px !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60 !important;
+    font-weight: bold !important;
+    text-align: center;
+    flex-direction: row !important;
+    justify-content: center !important;
+    box-shadow: none !important;
+}
+
+.my-facebook-button-class .fa-facebook {
+    margin-right: 15px;
+    background: #192f60;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    padding: 2px;
+    color: white;
+    line-height: 24px;
+}
+
+.login-btn {
+    background: #192f60;
+    color: white;
+}
+
+.login-btn:hover {
+    color: #192f60;
+    background: white;
+    border: 1px solid #192f60;
+}
+
+.bottom-text {
+    color: #192f60;
+    text-align: center;
+}

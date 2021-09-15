@@ -1,0 +1,162 @@
+.topSection {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    color: #eb2929;
+    margin: auto;
+    background: white;
+    border-radius: 50%;
+}
+
+.desc-text {
+  height: 51px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.location {
+    width: 245px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.search {
+    width: 477px;
+    height: 45px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.bottomSection {
+    /* margin: 70px; */
+    margin-top: 40px;
+}
+
+.bottom-header {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.bottom-subheader {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.qs {
+    margin-top: 20px;
+}
+
+.qs-box {
+    /* width: 33%;
+    display: inline-block; */
+}
+
+.qs-box-items {
+    margin: 10px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.qs-box-items img {
+    width: 160px;
+    height: 160px;
+}
+
+.qs-box-header {
+    position: absolute;
+    left: 190px;
+    top: 20px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.qs-box-desc {
+    position: absolute;
+    left: 190px;
+    top: 60px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+@media (max-width: 760px) {
+    .search-options {
+        margin-top: 60px;
+    }
+    .desc-text {
+        height: 40px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    .qs-box-items img {
+        width: 140px;
+    }
+    .qs-box-desc {
+        left: 160px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 990px) {
+
+}
